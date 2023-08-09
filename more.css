@@ -1,0 +1,77 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Center the image */
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the main content */
+h3 {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+p, ul {
+    padding: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Add some spacing between sections */
+h3:not(:first-child),
+p:not(:first-child) {
+    margin-top: 20px;
+}
+
+.timeline {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.timeline th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+.timeline td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.timeline tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.timeline tr:hover {
+    background-color: #e0e0e0;
+}
